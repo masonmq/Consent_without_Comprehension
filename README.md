@@ -70,16 +70,14 @@ The scripts listed below reproduce the analyses reported in the paper.
 
 ## 📊 Usage and data
 
-### 1. analysis dataset
-- `final_g0-5.csv` 
-
-### 2. Each script contains:
+### 1. Each script contains:
 - Expected input data files.
 - Any preprocessing steps required before running the analysis.
 
-### 3. To replicate results, please:
+### 2. To replicate results, please:
 1. Place the analysis dataset in the paths expected by the scripts.
 2. Run the relevant script(s) with your preferred Python environment.
-3. Compare the generated outputs to the corresponding tables and figures in the paper.
+
+   
 
 
