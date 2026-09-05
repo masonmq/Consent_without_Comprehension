@@ -9,9 +9,7 @@
 
 ## 🔍 Overview
 
-Privacy policies govern how personal data is collected, used, and shared. Yet, in most privacy-policy consent flows, agreement is operationalized as a single click at the end of a long, opaque policy document. Recent privacy-law scholarship has argued for a standard of demonstrably informed consent. That is, the party drafting and designing privacy-policy consent mechanisms must generate reliable evidence that a person demonstrates comprehension of the consequential terms to which they agree. To this end, we study pedagogical friction as a design framing: minimal interventions embedded within a privacy-policy consent flow that aim to support demonstrated comprehension while keeping burden on the user low. 
-
-In a randomized experiment, we tested pedagogical friction for demonstrably informed consent in the context of a privacy policy for an edtech app for young children. We recruited 293 parents of kids ages 3-8 to review the app’s privacy policy under one of six conditions that varied presentation format and pacing, then complete a six-question comprehension quiz. Three conditions offered a second policy review and quiz retake for participants who did not pass this quiz on their first attempt. We find that the slide-based condition (G3) achieved the highest first-attempt threshold attainment (≥80%) (41.7%), followed by the paced, sectioned condition (G4) (30.6%). In the retake conditions, 64.9% of participants who completed a second attempt improved their score. Notably, in conditions that did not gate consent on demonstrated comprehension, 97.3% of participants who scored below the threshold still chose to consent, suggesting that ungated consent flows can record agreement without demonstrated comprehension. Our results suggest that pedagogical friction can strengthen the evidentiary basis of consent and clarify what it costs in time and burden.
+Privacy policies govern how data is collected, used, and shared, yet agreement is often operationalized as a single click. Privacy-law scholarship argues for demonstrably informed consent, requiring evidence that a person understands consequential terms. We study pedagogical friction as a design framing: minimal interventions embedded within a privacy-policy consent flow to support demonstrated comprehension while keeping user burden low. In a randomized experiment with 293 parents, we tested six conditions varying presentation and pacing. The timed slide-based condition (G3) had the highest observed first-attempt threshold attainment (>=80%) (41.7%), followed by the paced, sectioned condition (G4) (30.6%). Among retakers, 66.4\% improved after a second policy review and quiz attempt. In our ungated study conditions, 97.3% of participants who did not meet the comprehension threshold chose to consent. Our results show that some forms of pedagogical friction can support demonstrated comprehension at different stages, with varying time and burden costs.
 
 The scripts listed below reproduce the analyses reported in the paper.
 
@@ -19,7 +17,7 @@ The scripts listed below reproduce the analyses reported in the paper.
 
 ## 🚀 Analysis scripts
 
-### 1. RQ1: Can added friction during privacy policy review improve demonstrated comprehension of key terms prior to consent?
+### 1. RQ1: How does demonstrated comprehension of key terms vary across privacy-policy review designs with different forms of pedagogical friction?
 
 **Quiz performance by condition**
 
