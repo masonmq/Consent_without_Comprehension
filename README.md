@@ -1,4 +1,4 @@
-<h1 align="center"> Consent without Comprehension: A Randomized Experiment on Pedagogical Friction 
+<h1 align="center"> Consent with Comprehension: A Randomized Experiment on Pedagogical Friction 
   
   in Privacy Policy Flows</h1>
 
@@ -9,7 +9,7 @@
 
 ## 🔍 Overview
 
-Privacy policies govern how data is collected, used, and shared, yet agreement is often operationalized as a single click. Privacy-law scholarship argues for demonstrably informed consent, requiring evidence that a person understands consequential terms. We study pedagogical friction as a design framing: minimal interventions embedded within a privacy-policy consent flow to support demonstrated comprehension while keeping user burden low. In a randomized experiment with 293 parents, we tested six conditions varying presentation and pacing. The timed slide-based condition (G3) had the highest observed first-attempt threshold attainment (>=80%) (41.7%), followed by the paced, sectioned condition (G4) (30.6%). Among retakers, 66.4\% improved after a second policy review and quiz attempt. In our ungated study conditions, 97.3% of participants who did not meet the comprehension threshold chose to consent. Our results show that some forms of pedagogical friction can support demonstrated comprehension at different stages, with varying time and burden costs.
+Privacy policies are meant to inform people about how their data will be collected, used, and shared, yet consent is often reduced to clicking 'I agree.' We ask whether pedagogical friction--brief interventions that slow users down, focus attention, or explain important terms--can improve understanding of consequential terms without excessive burden. In a randomized experiment with 293 parents evaluating a children’s learning app, we test six interface designs, from a standard text policy to versions using highlighting, plain-language explanations, pacing, sectioning, and timed slide recap. Participants completed a comprehension quiz; in three conditions, those scoring below 80% reviewed the policy and retook the quiz. The slide recap condition had the highest first-attempt passing rate (41.7%), and 66.4% of retakers improved. In ungated conditions, 97.3% of participants below the comprehension threshold still consented. These findings suggest that targeted friction can support comprehension while highlighting the gap between recorded agreement and demonstrated understanding.
 
 The scripts listed below reproduce the analyses reported in the paper.
 
