@@ -50,7 +50,7 @@ def parse_bool_list(s):
     return None
 
 
-def extract_item_cols(df, prefix, n_max=7):
+def extract_item_cols(df, prefix, n_max=N_Q_ALL):
     cols = []
     for i in range(1, n_max + 1):
         c = f"{prefix}{i}"
@@ -80,7 +80,7 @@ def ensure_item_columns(df):
     else:
         df["_retry_list"] = None
 
-    for i in range(7):
+    for i in range(N_Q_ALL):
         c1 = f"1Q{i+1}"
         if c1 not in df.columns:
             def get_init(row, idx=i):
